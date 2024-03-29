@@ -11,6 +11,7 @@
 @import './components/format-card';
 @import './components/input';
 @import './components/links';
+@import './components/pagination';
 
 @import './layouts/advantages-section';
 @import './layouts/chefs-section';
@@ -20,73 +21,7 @@
 @import './layouts/formats-section';
 @import './layouts/header';
 @import './layouts/hero-section';
+@import './layouts/mobile-menu';
 @import './layouts/modal';
 @import './layouts/section';
 @import './layouts/traditions-section';
-
-.address-link:hover {
-  color: var(--color-brand-normal);
-}
-
-.address-icon {
-  fill: var(--color-primary-light);
-}
-
-.address-icon:hover {
-  fill: var(--color-brand-normal);
-}
-
-.address-copyright {
-  font-size: 14px;
-}
-
-.footer-container {
-  display: flex;
-  gap: 20px;
-}
-
-.footer-nav,
-.footer-address {
-  display: flex;
-  flex-basis: 50%;
-  gap: 20px;
-}
-
-.footer-logo,
-.footer-menu {
-  flex-grow: 1;
-}
-
-.address-list,
-.address-info {
-  flex-grow: 1;
-}
-
-/* .checkbox {
-    position: relative;
-}
-
-.checkbox-input {
-    appearance: none;
-}
-
-.checkbox-input:checked + .checkbox-label::before{
-    background-color: green;
-
-}
-
-.checkbox-label{
-    padding-left: 24px;
-}
-
-.checkbox-label::before {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 16px;
-    height: 16px;
-    margin-top: 5px;
-    border: 1px solid var(--color-primary-dark);
-    border-radius: 2px;
-    content: '';
-} */
